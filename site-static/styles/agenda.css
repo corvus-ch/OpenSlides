@@ -1,0 +1,24 @@
+/**
+ * OpenSlides agenda style
+ *
+ * :copyright: 2011, 2012 by OpenSlides team, see AUTHORS.
+ * :license: GNU GPL, see LICENSE for more details.
+ */
+
+/* agenda item open/closed */
+.close_link span {
+    background-image: url(../images/icons/close-grey.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.close_link.closed span {
+    background-image: url(../images/icons/close.png);
+}
+
+table#menu-overview {
+    white-space: nowrap;
+}

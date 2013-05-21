@@ -1,0 +1,111 @@
+/**
+ * OpenSlides projector control style
+ *
+ * :copyright: 2011, 2012 by OpenSlides team, see AUTHORS.
+ * :license: GNU GPL, see LICENSE for more details.
+ */
+
+/* Portlet */
+.column {
+    width: 50%;
+    float: left;
+    padding-bottom: 100px;
+}
+.portlet {
+    margin: 0 10px 10px 0;
+}
+.portlet-header {
+    margin: 0.3em;
+    padding-bottom: 4px;
+    padding-left: 0.2em;
+}
+.portlet-header .ui-icon {
+    float: right;
+}
+.portlet-content {
+    padding: 0.4em;
+    overflow: hidden;
+}
+.portlet-content li{
+    padding: 4px 0;
+}
+.ui-sortable-placeholder {
+    border: 1px dotted black;
+    visibility: visible !important;
+    height: 50px !important;
+}
+.ui-sortable-placeholder * {
+    visibility: hidden;
+}
+
+/*.projector_countdown_spinval {*/
+
+#countdown_time {
+    width: 40px;
+    height: 16px;
+}
+
+/* iframe */
+#iframe {
+    -moz-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -moz-transform: scale(0.25);
+    -webkit-transform: scale(0.25);
+    -o-transform: scale(0.25);
+
+    width: 1024px;
+    height: 768px;
+}
+
+#iframewrapper {
+    width: 256px;/*100%;*/
+    height: 192px;/*230px;*/
+    position: relative;
+    overflow: hidden;
+}
+
+#iframeoverlay {
+    width: 256px;
+    height: 192px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    z-index: 1;
+}
+
+/* activate link */
+a.activate_link div {
+    background-image: url(../images/icons/accept-grey.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 16px;
+    height: 16px;
+    padding-right: 12px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+a.activate_link.active div {
+    background-image: url(../images/icons/accept.png);
+}
+
+a.overlay div {
+    background-image: url(../images/icons/accept-grey.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 16px;
+    height: 16px;
+    padding-right: 16px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+
+a.overlay.active div {
+    background-image: url(../images/icons/accept.png);
+}
+
+
+
