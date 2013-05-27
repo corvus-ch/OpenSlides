@@ -106,7 +106,7 @@ II. Installation on GNU/Linux and MacOSX using the sources
 
   4. Install the required python-packages:
 
-        $ pip install django django-mptt
+        $ pip install django==1.4.5 django-mptt
 
         If you use python < 2.6 you also have to install simplejson:
         $ pip install simplejson
