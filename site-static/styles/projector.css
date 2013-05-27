@@ -18,8 +18,8 @@ body{
 /*** HEADER ***/
 #header {
     position:relative;
-    background:url("../images/presentation-header-bg.png") repeat-x scroll center top #3D3020;
-    height:100px;
+    background:url("../images/bg-header.jpg") repeat-x scroll center top rgb(249, 178, 0);
+    height:150px;
 }
 #logo {
     position:absolute;
@@ -33,7 +33,7 @@ body{
     right: 40px;
     font-size:42px;
     font-weight:bold;
-    color: #ffffff;
+    color: #333;
 }
 .event_description {
     position:absolute;
@@ -41,7 +41,7 @@ body{
     top:60px;
     right:40px;
     font-size:17px;
-    color: #cfcfcf;
+    color: #fff;
 }
 #ajaxswitcher {
     height: 20px;

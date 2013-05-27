@@ -9,7 +9,7 @@ body {
     padding: 0 0 0px;
     margin:0;
     background:url("../images/bg-submenu.gif") repeat-y scroll 0 0 #FFFFFF;
-    color:#1B110F;
+    color:#333;
     font-family:'Lucida Grande',"Trebuchet MS",Verdana,sans-serif;
     font-size:12px;
     position:relative;
@@ -18,8 +18,8 @@ body {
 /* HEADER */
 #header {
     position:relative;
-    background:url("../images/bg-header.gif") repeat-x scroll center top #3D3020;
-    height:150px;
+    background:url("../images/bg-header.jpg") repeat-x scroll center top #3D3020;
+    height:170px;
 }
 #logo {
     position:absolute;
@@ -33,17 +33,17 @@ body {
     top:25px;
     font-size:34px;
     font-weight: bold;
-    color:#FFFFFF;
+    color:#333;
 }
 #header_subtitle {
     position:absolute;
-    color:#B9A894;
+    color:#fff;
     left:230px;
     top:70px;
     font-size:14px;
 }
 #header_userprofile, #header_userprofile a  {
-    color:#B9A894;
+    color:#333;
 }
 #header_userprofile {
     position:absolute;
@@ -57,20 +57,20 @@ body {
 }
 #header_userprofile li#last {
     clear:both;
-    color:#6A5644;
+    color:#333;
     padding:8px 0 0;
 }
 #header_userprofile li strong {
-    color:#ECE0D2;
-    font-weight:normal;
+    color:#ddd;
+    font-weight:bold;
 }
 #header_userprofile li a {
-    color:#B9A894;
+    color:#fff;
     padding:1px 0 1px 10px;
     text-decoration:none;
 }
 #header_userprofile li a:hover {
-    color:#ECE0D2;
+    color:#333;
 }
 
 /* Main Menu */
@@ -85,15 +85,15 @@ body {
 }
 #mainmenu li a {
     border-radius:6px 6px 0px 0px;
-    background:none repeat scroll 0 0 #4F4743;
-    color:#A59A92;
+    background:none repeat scroll 0 0 transparent;
+    color:#fff;
     display:block;
     margin:0 3px;
     padding:10px 12px;
     text-decoration:none;
 }
 #mainmenu li a:hover {
-    color:#ECE0D2;
+    color:#333;
 }
 #mainmenu li.selected a {
     background:none repeat scroll 0 0 #FFFFFF;
@@ -115,15 +115,15 @@ body {
     margin-left: -100%;
 }
 #submenu .section {
-    border-top:1px solid #2C2523;
+    border-top:1px solid #C7640C;
 }
 #submenu .sectiontitle {
     /*background-color: #2E2520*/
 }
 #submenu .section h4 {
-    border-top:1px solid #443C3A;
-    border-bottom:1px solid #B9A894;
-    color:#B9A894;
+    border-top:1px solid #C7640C;
+    border-bottom:1px solid #C7640C;
+    color:#333;
     padding:15px 20px 10px 5px;
     margin:0px;
     margin-bottom:0px;
@@ -131,8 +131,8 @@ body {
     text-align:right;
 }
 #submenu .section h3 {
-    border-bottom:1px dashed #B9A894;
-    color:#B9A894;
+    border-bottom:1px dashed #C7640C;
+    color:#333;
     padding:15px 20px 10px 5px;
     margin:0px;
     margin-bottom:0px;
@@ -141,7 +141,7 @@ body {
     overflow:hidden;
 }
 #submenu li a {
-    color:#B9A894;
+    color:#333;
     display:block;
     font-size:11px;
     padding:6px 20px 6px 2px;
