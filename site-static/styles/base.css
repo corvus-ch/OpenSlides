@@ -149,7 +149,7 @@ body {
     text-decoration:none;
 }
 .section li a:hover {
-    background:none repeat scroll 0 0 #443C3A;
+    background:none repeat scroll 0 0 #fff;
 }
 #submenu li.selected a, .section li.selected a:hover {
     background:none repeat scroll 0 0 #FFFFFF;
