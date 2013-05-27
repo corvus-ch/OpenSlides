@@ -1,3 +1,18 @@
+=================================================================
+Customized version of Openslides for the Pirate Party Switzerland
+=================================================================
+
+Customizations
+==============
+
+Collect all static files to static-files
+
+$ python manage.py collectstatic
+
+Test with vagrant: see Vagrantfile
+
+Run with nginx and uwsgi: see provision.sh
+
 ==================================
 English README file for OpenSlides
 ==================================
